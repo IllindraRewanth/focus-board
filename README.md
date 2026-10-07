@@ -58,11 +58,5 @@ These problems turned up in the first version and were fixed before the app was 
 2. **Double-counting after a session ended.** When the timer reached `00:00`, the button showed "Resume". Clicking it ended a 0-second session at once and counted a second session. Fixed by resetting the timer to the full length when a session finishes.
 
 ### My manual improvements
-Changed the main color from orange to blue to match my style.
 
-_Fill this in with changes you made yourself, with a before/after for each. Ideas:_
-
-- _Let the user change the focus length (for example 25 / 50 minutes)._
-- _Play a sound or show a browser notification when a session ends._
-- _Add a way to edit a task's title._
-- _Change the colors or layout to your own style._
+- **Changed the main accent color** in `src/index.css` from orange (`#d9480f`) to blue (`#2563eb`) to match my own style. This updates the timer ring, the Start/Add buttons and the checkboxes.
