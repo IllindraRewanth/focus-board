@@ -58,6 +58,7 @@ These problems turned up in the first version and were fixed before the app was 
 2. **Double-counting after a session ended.** When the timer reached `00:00`, the button showed "Resume". Clicking it ended a 0-second session at once and counted a second session. Fixed by resetting the timer to the full length when a session finishes.
 
 ### My manual improvements
+Changed the main color from orange to blue to match my style.
 
 _Fill this in with changes you made yourself, with a before/after for each. Ideas:_
 
