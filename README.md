@@ -2,7 +2,7 @@
 
 A small focus app built with React and Vite. You add tasks, pick one, and run a 25-minute focus timer (Pomodoro technique). Finished sessions are counted against each task and toward a daily total. Everything is saved in the browser, so nothing is lost on refresh.
 
-**Live demo:** _add your Vercel link here_
+**Live demo:** https://focus-board-bay.vercel.app
 
 ## Features
 
